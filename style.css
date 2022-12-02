@@ -165,7 +165,7 @@ nav ul li a:hover::after {
     border-radius: 50%;
     animation: astroMove 3s infinite 2s;
     /* transform: translateY(-100px); */
-border:2px solid red;
+
 }
 
 /* .fun .shadow {
@@ -1387,6 +1387,7 @@ nav .bar-icon {
         top: 75%;
         width: 180px;
         height: 180px;
+border:2px solid red;
     }
 
     nav .bar-icon {
