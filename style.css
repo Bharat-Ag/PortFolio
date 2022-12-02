@@ -1379,6 +1379,8 @@ nav .bar-icon {
         top: 75%;
         width: 180px;
         height: 180px;
+  border: 2px Solid red;
+
     }
 
     nav .bar-icon {
