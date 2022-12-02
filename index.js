@@ -74,3 +74,26 @@ const observer = new IntersectionObserver(
 });
 
 observer.observe(svr);
+
+
+// --------------------scroll to up animation---------
+
+
+let scrlBtn = document.querySelector(".scroll-btn")
+
+window.addEventListener('scroll', () => {
+
+
+    // console.log(mainscl);
+
+    if (window.pageYOffset >= 700) {
+        scrlBtn.classList.add("active");
+    }
+    else {
+
+        scrlBtn.classList.remove("active");
+
+    }
+
+})
+
