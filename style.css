@@ -1060,7 +1060,9 @@ nav .bar-icon {
         margin: 0px auto;
         left: 50px;
         transform: translateX(-50%);
+        border:2px solid red;
     }
+
 
     nav .bar-icon {
         display: block;
