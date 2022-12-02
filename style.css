@@ -1054,7 +1054,6 @@ nav .bar-icon {
         height: 190px;
         margin: 30px auto;
         left: 50px;
-        border: 2px Solid red;
     }
 
     .work-list .work::before {
@@ -2673,13 +2672,11 @@ nav .bar-icon {
     .contact-left .sub-title::after {
         top: 3.2rem;
         left: 1rem;
-
     }
 
     .contact-left p {
         font-size: 15px;
         margin: 0;
-
     }
 
     .contact-left p i {
@@ -2689,7 +2686,6 @@ nav .bar-icon {
     .contact-right {
         flex-basis: 63%;
     }
-
 }
 
 
