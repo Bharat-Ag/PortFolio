@@ -1021,6 +1021,7 @@ nav .bar-icon {
         height: 190px;
         margin: 30px auto;
         left: 50px;
+        border: 2px Solid red;
     }
 
     .work-list .work::before {
