@@ -159,6 +159,7 @@ nav ul li a:hover::after {
     height: 350px;
     border-radius: 50%;
     animation: astroMove 3s infinite 2s;
+    margin-top: 20px;
 }
 
 @keyframes astroMove {
@@ -1018,7 +1019,7 @@ nav .bar-icon {
         top: 60%;
         width: 190px;
         height: 190px;
-        margin: 0px auto;
+        margin: 30px auto;
         left: 50px;
     }
 
@@ -1319,7 +1320,6 @@ nav .bar-icon {
     .copyright p .bx-heart:hover {
         transform: scale(1);
         color: rgb(255, 29, 67);
-
     }
 
 }
