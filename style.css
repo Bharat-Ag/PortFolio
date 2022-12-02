@@ -45,11 +45,6 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    /* background: rgb(2, 23, 24);
-    background: -moz-linear-gradient(274deg, rgba(2, 23, 24, 1) 0%, rgba(24, 25, 41, 1) 100%);
-    background: -webkit-linear-gradient(274deg, rgba(2, 23, 24, 1) 0%, rgba(24, 25, 41, 1) 100%);
-    background: linear-gradient(274deg, rgba(2, 23, 24, 1) 0%, rgba(24, 25, 41, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#021718", endColorstr="#181929", GradientType=1); */
     color: var(--white-clr);
     background: url('./5430284.jpg') no-repeat;
     background-position: center;
@@ -164,28 +159,7 @@ nav ul li a:hover::after {
     height: 350px;
     border-radius: 50%;
     animation: astroMove 3s infinite 2s;
-    /* transform: translateY(-100px); */
-
 }
-
-/* .fun .shadow {
-
-    position: absolute;
-    background: rgba(0, 0, 0, 0.334);
-    width: 150px;
-    height: 5px;
-    right: 17%;
-    top: 90%;
-    transform: translate(-50%, -50%) scale(0);
-    border-radius: 50%;
-    animation: astroMoveSdw 3s infinite;
-} */
-
-
-
-
-
-
 
 @keyframes astroMove {
 
@@ -1073,7 +1047,7 @@ nav .bar-icon {
         left: 0;
         width: 100%;
         height: max-content;
-        padding-top: 00px;
+        padding: 0 120px;
         transition: top .6s ease-in-out;
         overflow-y: scroll;
     }
@@ -1084,15 +1058,15 @@ nav .bar-icon {
 
     nav ul li {
         display: block;
-        margin: 00px 0px;
+        margin: 10px 0px;
         text-align: center;
         width: 100%;
-        padding: 0 10px;
+        padding: 0px 00px;
     }
 
     nav ul li a {
         display: block;
-        padding: 20px 20px;
+        padding: 10px 0px;
         font-size: 15px;
 
     }
@@ -1379,8 +1353,6 @@ nav .bar-icon {
         top: 75%;
         width: 180px;
         height: 180px;
-  border: 2px Solid red;
-
     }
 
     nav .bar-icon {
