@@ -53,7 +53,6 @@ body {
 
 #header .container {
     padding: 10px 0;
-
 }
 
 .container {
@@ -180,36 +179,13 @@ nav ul li a:hover::after {
 
 }
 
-
-/* @keyframes astroMoveSdw {
-
-    0% {
-        transform: translate(-50%, -50%) scale(0);
-
-    }
-
-    35%,
-    50% {
-        transform: translate(-50%, -50%) scale(1);
-
-    }
-
-
-    100% {
-        transform: translate(-50%, -50%) scale(0);
-
-    }
-
-} */
-
-
 /* <!---------------------------------------about --> */
 
 #about {
     padding: 80px 0;
     color: var(--white-clr);
     position: relative;
-    max-height: 100vh;
+    min-height: 100vh;
 }
 
 .row {
@@ -1049,6 +1025,7 @@ nav .bar-icon {
     }
 
     .fun {
+
         top: 60%;
         width: 190px;
         height: 190px;
@@ -2672,11 +2649,13 @@ nav .bar-icon {
     .contact-left .sub-title::after {
         top: 3.2rem;
         left: 1rem;
+
     }
 
     .contact-left p {
         font-size: 15px;
         margin: 0;
+
     }
 
     .contact-left p i {
@@ -2686,6 +2665,7 @@ nav .bar-icon {
     .contact-right {
         flex-basis: 63%;
     }
+
 }
 
 
