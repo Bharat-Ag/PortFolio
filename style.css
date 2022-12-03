@@ -658,6 +658,49 @@ nav .bar-icon {
     cursor: pointer;
 }
 
+@media only screen and (max-width:220px) {
+    .header-text h1 {
+        padding: 0;
+        font-size: 15px;
+    }
+
+    .header-text h1 span {
+        padding: 0;
+        font-size: 30px;
+    }
+
+    .header-text p {
+        font-size: 10px;
+        padding-left: 6.1em;
+
+    }
+
+    .header-text {
+        margin-top: 60%;
+        padding-left: 10px;
+    }
+
+    #about,
+    #services,
+    #portfoilio,
+    #contact,
+    .navbar-menu,
+    .fun {
+        display: none;
+    }
+
+    .copyright {
+        padding: 15px 0;
+    }
+
+    .copyright p {
+        font-size: 6px;
+        padding: 0;
+    }
+}
+
+
+
 @media (min-width:220px) and (max-width:346px) {
 
     /* ========================================header style */
@@ -1000,11 +1043,6 @@ nav .bar-icon {
         padding: 0;
     }
 
-
-    #header {
-        height: 100vh;
-    }
-
     .header-text {
         margin-top: 60%;
         padding-left: 40px;
@@ -1024,11 +1062,10 @@ nav .bar-icon {
     }
 
     .fun {
-
-        top: 60%;
-        width: 190px;
-        height: 190px;
-        margin: 30px auto;
+        top: 72%;
+        width: 160px;
+        height: 160px;
+        margin: auto;
         left: 50px;
     }
 
@@ -1934,7 +1971,6 @@ nav .bar-icon {
         padding: 0px 0;
         color: var(--white-clr);
         position: relative;
-        max-height: 100vh;
     }
 
 
@@ -2126,7 +2162,6 @@ nav .bar-icon {
         padding: 40px 0;
         color: var(--white-clr);
         position: relative;
-        max-height: 100vh;
     }
 
     #about .container {
