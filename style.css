@@ -44,7 +44,7 @@ body {
 
 #header {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     color: var(--white-clr);
     background: url('./5430284.jpg') no-repeat;
     background-position: center;
@@ -198,14 +198,12 @@ nav ul li a:hover::after {
     overflow: hidden;
     user-select: none;
     border-radius: 5px;
-
-
 }
 
 .about-col-1 img {
     width: 100%;
-    /* height: 80%; */
     object-fit: cover;
+    object-position: center;
     position: relative;
     top: -350px;
     border-radius: 5px;
@@ -610,6 +608,7 @@ footer {
     bottom: 7%;
     transform: translateX(-120%);
     transition: transform .4s ease-in-out;
+    z-index: 999999;
 }
 
 #modal-msg.active {
@@ -704,11 +703,15 @@ nav .bar-icon {
 @media (min-width:220px) and (max-width:346px) {
 
     /* ========================================header style */
+    #modal-msg {
+        height: 50px;
+        width: 180px;
+        font-size: 12px;
+    }
 
     .scroll-btn {
         bottom: 40px;
         right: 30px;
-
     }
 
     .container {
@@ -822,8 +825,6 @@ nav .bar-icon {
     .about-col-1 img {
         width: 120%;
         top: -50px;
-        object-fit: contain;
-        object-position: center;
     }
 
     .about-col-2 {
@@ -1038,6 +1039,11 @@ nav .bar-icon {
 @media (min-width:347px) and (max-width:450px) {
 
     /* ========================================header style */
+    #modal-msg {
+        height: 50px;
+        width: 180px;
+        font-size: 12px;
+    }
 
     .container {
         padding: 0;
@@ -1046,6 +1052,7 @@ nav .bar-icon {
     .header-text {
         margin-top: 60%;
         padding-left: 40px;
+
     }
 
     .header-text h1 {
@@ -1063,10 +1070,8 @@ nav .bar-icon {
 
     .fun {
         top: 72%;
-        width: 160px;
-        height: 160px;
-        margin: auto;
-        left: 50px;
+        width: 120px;
+        height: 120px;
     }
 
     .work-list .work::before {
@@ -1160,8 +1165,6 @@ nav .bar-icon {
     .about-col-1 img {
         width: 120%;
         top: -50px;
-        object-fit: contain;
-        object-position: center;
     }
 
     .about-col-2 {
@@ -1376,32 +1379,40 @@ nav .bar-icon {
 @media (min-width:451px) and (max-width:550px) {
 
     /* ========================================header style */
+    #modal-msg {
+        height: 60px;
+        width: 200px;
+        font-size: 14px;
+    }
 
     .container {
         padding: 10px 5%;
     }
 
     .header-text {
-        margin-top: 70%;
+        margin-top: 20%;
         padding-left: 20px;
     }
 
     .header-text h1 {
-        font-size: 18px;
+        font-size: 10px;
+
     }
 
     .header-text h1 span {
-        font-size: 70px;
+        font-size: 40px;
     }
 
     .header-text p {
-        padding-left: 13.5rem;
+        padding-left: 9rem;
+        font-size: 8px;
+
     }
 
     .fun {
-        top: 75%;
-        width: 180px;
-        height: 180px;
+        top: 50%;
+        width: 90px;
+        height: 90px;
     }
 
     nav .bar-icon {
@@ -1453,6 +1464,11 @@ nav .bar-icon {
         padding: 10px 20px;
     }
 
+    #header .bx-menu,
+    #header .bxs-cat {
+        font-size: 35px;
+    }
+
     #about {
         display: flex;
         justify-content: center;
@@ -1472,13 +1488,16 @@ nav .bar-icon {
 
     .about-col-1 {
         flex-basis: 100%;
-        margin-bottom: 20px;
-        max-height: 200px;
-        margin: 00px auto 00px;
+        height: 200px;
+        margin: 0px auto 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
     }
 
     .about-col-1 img {
-        top: -390px;
+        top: -51px;
     }
 
     .sub-title::after {
@@ -1650,6 +1669,11 @@ nav .bar-icon {
 @media (min-width:551px) and (max-width:600px) {
 
     /* ========================================header style */
+    #modal-msg {
+        height: 60px;
+        width: 210px;
+        font-size: 14px;
+    }
 
     .container {
         padding: 10px 5%;
@@ -1662,21 +1686,23 @@ nav .bar-icon {
     }
 
     .header-text h1 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .header-text h1 span {
-        font-size: 80px;
+        font-size: 75px;
     }
 
     .header-text p {
-        padding-left: 17rem;
+        padding-left: 16.5rem;
+        font-size: 15px;
+
     }
 
     .fun {
-        top: 68%;
-        width: 200px;
-        height: 200px;
+        top: 70%;
+        width: 150px;
+        height: 150px;
     }
 
     nav .bar-icon {
@@ -1724,26 +1750,34 @@ nav .bar-icon {
     }
 
     .navbar-menu {
-        padding: 20px 30px;
+        padding: 15px 30px;
+    }
+
+    #header .bx-menu,
+    .bxs-cat {
+        font-size: 40px;
     }
 
     #about {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 50px 0;
+        padding: 30px 0;
 
     }
 
     .about-col-1 {
         flex-basis: 100%;
-        margin-bottom: 20px;
-        max-height: 220px;
-        margin: 00px auto 30px;
+        height: 250px;
+        margin: 0px auto 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
     }
 
     .about-col-1 img {
-        top: -520px;
+        top: -99px;
     }
 
     .sub-title::after {
@@ -1890,33 +1924,38 @@ nav .bar-icon {
 @media (min-width:601px) and (max-width:810px) {
 
     /* ========================================header style */
+    #modal-msg {
+        height: 70px;
+        width: 230px;
+        font-size: 16px;
+    }
 
     .container {
         padding: 10px 5%;
     }
 
     .header-text {
-        margin-top: 45%;
-        font-size: 30px;
+        margin-top: 15%;
         padding-left: 40px;
     }
 
     .header-text h1 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .header-text h1 span {
-        font-size: 80px;
+        font-size: 65px;
     }
 
     .header-text p {
-        padding-left: 17rem;
+        padding-left: 13rem;
+        font-size: 15px;
     }
 
     .fun {
-        top: 68%;
-        width: 250px;
-        height: 250px;
+        top: 50%;
+        width: 150px;
+        height: 150px;
     }
 
     nav .bar-icon {
@@ -1968,7 +2007,7 @@ nav .bar-icon {
     }
 
     #about {
-        padding: 0px 0;
+        padding: 30px 0;
         color: var(--white-clr);
         position: relative;
     }
@@ -1986,14 +2025,16 @@ nav .bar-icon {
 
     .about-col-1 {
         flex-basis: 100%;
-        height: 250px;
-        margin: 30px auto 20px;
+        height: 290px;
+        margin: 0px auto 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
     }
 
     .about-col-1 img {
-        top: -520px;
-        object-fit: cover;
-        object-position: center;
+        top: -100px;
     }
 
     .sub-title::after {
@@ -2020,7 +2061,7 @@ nav .bar-icon {
     }
 
     .tab-contents {
-        height: 300px;
+        height: calc(300px - 30px);
     }
 
     #about .sub-title::after {
@@ -2130,27 +2171,27 @@ nav .bar-icon {
 
 
     .header-text {
-        margin-top: 30%;
+        margin-top: 20%;
         font-size: 30px;
         padding-left: 40px;
     }
 
     .header-text h1 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .header-text h1 span {
-        font-size: 90px;
+        font-size: 80px;
     }
 
     .header-text p {
-        padding-left: 20.8rem;
+        padding-left: 17rem;
     }
 
     .fun {
-        top: 65%;
-        width: 250px;
-        height: 250px;
+        top: 50%;
+        width: 170px;
+        height: 170px;
     }
 
     .navbar-menu {
@@ -2276,22 +2317,22 @@ nav .bar-icon {
     }
 
     .header-text h1 {
-        font-size: 17px;
+        font-size: 20px;
     }
 
     .header-text h1 span {
-        font-size: 70px;
+        font-size: 80px;
     }
 
     .header-text p {
-        font-size: 13px;
-        padding-left: 16.2rem;
+        font-size: 16px;
+        padding-left: 17.8rem;
     }
 
     .fun {
         top: 56%;
-        width: 150px;
-        height: 150px;
+        width: 170px;
+        height: 170px;
     }
 
     .navbar-menu {
@@ -2309,13 +2350,23 @@ nav .bar-icon {
         padding: 10px 3%;
     }
 
+
     .about-col-1 {
-        max-height: 400px;
+        height: 400px;
+        margin: 0px auto 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
     }
 
     .about-col-1 img {
         top: -50%;
         padding: 00px 0;
+    }
+
+    .about-col-1 img {
+        top: -51px;
     }
 
     .about-col-2 {
@@ -2457,9 +2508,9 @@ nav .bar-icon {
     }
 
     .fun {
-        top: 60%;
-        width: 200px;
-        height: 200px;
+        top: 52%;
+        width: 190px;
+        height: 190px;
     }
 
     .navbar-menu {
@@ -2706,5 +2757,15 @@ nav .bar-icon {
 @media screen and (min-width:1451px) {
     #about {
         padding: 40px 0;
+        height: 100vh;
+    }
+
+    .about-col-1 img {
+        width: 100%;
+        height: 70%;
+        object-fit: cover;
+        position: relative;
+        top: 25px;
+        border-radius: 5px;
     }
 }
