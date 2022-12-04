@@ -19,11 +19,9 @@ window.addEventListener('scroll', () => {
     console.log(scroll);
 
     if (window.pageYOffset > 250) {
-
         nav.classList.add("sticky");
     }
     else {
-
         nav.classList.remove("sticky");
     }
 });
@@ -46,21 +44,10 @@ window.addEventListener('click', (e) => {
     }
 })
 
-
-
-
-
-
-
-
-
 // --------------------service section animation---------
 
-
 let svr = document.querySelector(".services-list")
-
 const observer = new IntersectionObserver(
-
     (entries) => {
         const ent = entries[0];
         ent.isIntersecting == false
@@ -82,18 +69,12 @@ observer.observe(svr);
 let scrlBtn = document.querySelector(".scroll-btn")
 
 window.addEventListener('scroll', () => {
-
-
-    // console.log(mainscl);
-
+ 
     if (window.pageYOffset >= 700) {
         scrlBtn.classList.add("active");
     }
     else {
-
         scrlBtn.classList.remove("active");
-
     }
-
 })
 
