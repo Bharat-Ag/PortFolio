@@ -333,6 +333,14 @@ nav ul li a:hover::after {
 }
 
 
+.services-list .work-2 {
+    animation-delay: 2s;
+}
+
+.services-list .work-3 {
+    animation-delay: 3s;
+}
+
 .services-list div:hover {
     background: rgb(50, 48, 48);
     transform: scale(1.05);
