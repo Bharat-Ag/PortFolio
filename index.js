@@ -83,11 +83,21 @@ window.addEventListener('scroll', () => {
 
 
 let theme = document.querySelector(".theme-change");
-let mainContainer = document.querySelector("body");
+let boDy = document.querySelector("body");
 
-
+let thmIcon = document.querySelector(".theme-icon")
+let toggle = true;
 const themeChnage = () => {
-    mainContainer.classList.toggle("theme-changed");
+    boDy.classList.toggle("theme-changed");
+
     document.getElementById("header").style.backgroundImage = "url(green-paint-brush-textured-background.jpg)";
+
+    toggle = !toggle;
+    if (toggle) {
+        thmIcon.src = "color-filled-solid-24.png";
+    }
+    else {
+        thmIcon.src = "color-empty-solid-24.png";
+    }
 
 }

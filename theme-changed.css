@@ -1,0 +1,24 @@
+body.theme-changed .work img {
+    filter: invert(0);
+}
+
+body.theme-changed .services-list div {
+    background: #BBC6C8;
+}
+
+body.theme-changed .theme-change img {
+    filter: invert(100);
+}
+
+
+body.theme-changed .bxs-balloon {
+    color: white;
+}
+
+body.theme-changed .primary-btn {
+    color: white;
+}
+
+body.theme-changed .copyright a:hover {
+    color: rgb(255, 63, 63);
+}

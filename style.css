@@ -14,19 +14,24 @@
     --fx: rgb(0, 102, 255);
     --animate: rgb(158, 116, 226);
     --bg-1: rgb(12, 11, 11);
-    --bg-2: rgb(12, 11, 11);
+    --bg-2: rgb(16, 17, 17);
+    --bg-3: rgb(15, 16, 16);
+    --input-clr: rgb(38, 37, 37);
 
 }
 
 .theme-changed {
     --white-clr: rgb(28, 28, 28);
-    --bg-1: #DDBEAA;
     --animate: #5BA199;
+    --bg-1: #DDBEAA;
+    --bg-2: #BBC6C8;
+    --bg-3: #469597;
+    --input-clr: #E5E3E4;
 }
 
 body {
     background-color: var(--bg-1);
-    transition: all .3s ease-in-out;
+    transition: background-color 100ms ease-in-out;
 }
 
 ::-webkit-scrollbar {
@@ -91,6 +96,11 @@ body {
     top: 0;
     transition: all .4s ease-in-out;
 }
+
+/* .navbar-menu .bxs-cat,
+.navbar-menu a {
+    color: rgb(255, 255, 255);
+} */
 
 .sticky {
     background-color: var(--animate);
@@ -310,7 +320,7 @@ nav ul li a:hover::after {
 #services {
     padding: 30px 0;
     color: var(--white-clr);
-    background-color: rgb(15, 16, 16);
+    background-color: var(--bg-3);
 }
 
 .services-list {
@@ -381,7 +391,8 @@ nav ul li a:hover::after {
 #portfoilio {
     padding: 40px 10px;
     color: var(--white-clr);
-    background-color: rgb(16, 17, 17);
+    background-color: var(--bg-2);
+    user-select: none;
 }
 
 #portfoilio .sub-title::after {
@@ -417,6 +428,7 @@ nav ul li a:hover::after {
     font-size: 20px;
 }
 
+
 .work-list .work {
     display: flex;
     justify-content: center;
@@ -442,11 +454,11 @@ nav ul li a:hover::after {
     justify-content: flex-start;
     align-items: center;
     gap: 15px;
+    width: max-content;
 }
 
 .work .theme-change img {
     filter: invert(0);
-
     gap: 15px;
 }
 
@@ -524,7 +536,7 @@ nav ul li a:hover::after {
     width: 100%;
     outline: none;
     border: none;
-    background: rgb(38, 37, 37);
+    background: var(--input-clr);
     color: var(--white-clr);
     border-radius: 5px;
     resize: none;
@@ -561,7 +573,7 @@ nav ul li a:hover::after {
 
 footer {
     width: 100%;
-    background-color: rgb(17, 17, 17);
+    background-color: var(--bg-2);
     top: 100%;
 }
 
