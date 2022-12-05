@@ -29,9 +29,81 @@
     --input-clr: #E5E3E4;
 }
 
+
+/* --------preloader animation */
+
+.loader {
+    position: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    z-index: 9999;
+    flex-direction: column;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1em;
+    gap: 10px;
+    transition: display .4s;
+
+}
+
+.loader .load {
+    width: 200px;
+    height: 120px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.loader .load .line {
+    position: absolute;
+    width: 70%;
+    background: white;
+    height: 4px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader .load .top {
+    margin: 10px;
+    top: 0;
+    animation: loader 3s infinite ease-in-out;
+}
+
+.loader .load .mid {
+    animation: loader 2s infinite ease-in-out;
+}
+
+.loader .load .bottom {
+    margin: 10px;
+    bottom: 0;
+    animation: loader 4s infinite ease-in-out;
+
+}
+
+
+@keyframes loader {
+    0% {
+        transform: translateX(-150%);
+    }
+
+    100% {
+        transform: translateX(150%);
+    }
+}
+
 body {
     background-color: var(--bg-1);
     transition: background-color 100ms ease-in-out;
+    overflow: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -458,7 +530,6 @@ nav ul li a:hover::after {
 }
 
 .work .theme-change img {
-    filter: invert(0);
     gap: 15px;
 }
 
@@ -628,7 +699,7 @@ footer {
     bottom: 7%;
     transform: translateX(-130%);
     transition: transform .4s ease-in-out;
-    z-index: 999999;
+    z-index: 1000;
 }
 
 #modal-msg.active {

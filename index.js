@@ -1,3 +1,22 @@
+// --------------------Pre loader-----------
+
+let loader = document.querySelector(".loader")
+
+window.addEventListener('load', loading = () => {
+    loader.style.display = "none";
+    document.body.style.overflow = "unset"
+})
+
+
+
+
+
+
+
+
+
+
+
 let tabLinks = document.getElementsByClassName("tab-links");
 let tabCtnts = document.getElementsByClassName("tab-contents");
 
