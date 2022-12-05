@@ -115,16 +115,20 @@ const themeChnage = () => {
         loader.style.display = "flex";
         setTimeout(() => {
             loader.style.display = "none";
-        }, 1500);
+        }, 1000);
     }
     else {
         document.getElementById("header").style.backgroundImage = "url(green-paint-brush-textured-background.jpg)";
         thmIcon.src = "color-empty-solid-24.png";
 
-        document.body.style.visibility = "hidden";
+        // document.body.style.visibility = "hidden";
+        // setTimeout(() => {
+        //     document.body.style.visibility = "visible";
+        // }, 500);
+        loader.style.display = "flex";
         setTimeout(() => {
-            document.body.style.visibility = "visible";
-        }, 500);
+            loader.style.display = "none";
+        }, 1000);
 
     }
 }
