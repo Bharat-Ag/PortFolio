@@ -99,7 +99,7 @@
 }
 
 body {
-    background-color: var(--bg-1);
+    background-color: black;
     transition: background-color 100ms ease-in-out;
     overflow: hidden;
 }
@@ -158,13 +158,12 @@ body {
     align-items: center;
     flex-wrap: wrap;
     background-color: transparent;
-    transition: all .31s;
     position: fixed;
     width: 100%;
     padding: 0 190px;
     z-index: 999;
     top: 0;
-    transition: all .4s ease-in-out;
+    transition: background-color .4s ease-in-out;
 }
 
 /* .navbar-menu .bxs-cat,
@@ -275,6 +274,7 @@ nav ul li a:hover::after {
     padding: 80px 0;
     color: var(--white-clr);
     position: relative;
+    background: var(--bg-1);
 }
 
 .row {
@@ -462,7 +462,6 @@ nav ul li a:hover::after {
     padding: 40px 10px;
     color: var(--white-clr);
     background-color: var(--bg-2);
-    user-select: none;
 }
 
 #portfoilio .sub-title::after {
@@ -482,10 +481,8 @@ nav ul li a:hover::after {
 }
 
 .work-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
     margin-top: 20px;
+    user-select: none;
 }
 
 .work-list a {
@@ -496,6 +493,7 @@ nav ul li a:hover::after {
     align-items: center;
     gap: 15px;
     font-size: 20px;
+    width: max-content;
 }
 
 
@@ -535,6 +533,7 @@ nav ul li a:hover::after {
 
 #contact {
     padding: 20px 0;
+    background: var(--bg-1);
 }
 
 .contact-left {
@@ -728,7 +727,7 @@ footer {
     opacity: 0;
     text-decoration: none;
     pointer-events: none;
-    transition: all .5s ease-in-out;
+    transition: opacity .3s ease-in-out, right .3s ease-in-out;
 }
 
 .scroll-btn.active {
