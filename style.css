@@ -47,8 +47,6 @@
     font-weight: 400;
     letter-spacing: 1em;
     gap: 10px;
-    transition: display .4s;
-
 }
 
 .loader .load {
