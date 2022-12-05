@@ -10,9 +10,7 @@ window.addEventListener('load', loading = () => {
 
 
 
-
-
-
+// --------------------Teb Section---------
 
 let tabLinks = document.getElementsByClassName("tab-links");
 let tabCtnts = document.getElementsByClassName("tab-contents");

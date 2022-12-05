@@ -744,6 +744,22 @@ nav .bar-icon {
 }
 
 @media only screen and (max-width:220px) {
+
+    .loader .load {
+        width: 50px;
+        height: 70px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .loader h1 {
+        font-size: 10px;
+        letter-spacing: .5em;
+    }
+
     .header-text h1 {
         padding: 0;
         font-size: 15px;
@@ -1125,6 +1141,20 @@ nav .bar-icon {
 @media (min-width:347px) and (max-width:450px) {
 
     /* ========================================header style */
+    .loader .load {
+        width: 150px;
+        height: 100px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .loader h1 {
+        font-size: 20px;
+    }
+
     #modal-msg {
         height: 50px;
         width: 180px;
