@@ -106,22 +106,25 @@ let toggle = true;
 const themeChnage = () => {
     boDy.classList.toggle("theme-changed");
 
-
     toggle = !toggle;
     if (toggle) {
         thmIcon.src = "color-filled-solid-24.png";
 
         document.getElementById("header").style.backgroundImage = "url(5430284.jpg)";
+
+        loader.style.display = "flex";
+        setTimeout(() => {
+            loader.style.display = "none";
+        }, 1500);
     }
     else {
         document.getElementById("header").style.backgroundImage = "url(green-paint-brush-textured-background.jpg)";
         thmIcon.src = "color-empty-solid-24.png";
 
-
         document.body.style.visibility = "hidden";
         setTimeout(() => {
             document.body.style.visibility = "visible";
-        }, 1500);
-    }
+        }, 500);
 
+    }
 }

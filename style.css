@@ -84,9 +84,7 @@
     margin: 10px;
     bottom: 0;
     animation: loader 4s infinite ease-in-out;
-
 }
-
 
 @keyframes loader {
     0% {
