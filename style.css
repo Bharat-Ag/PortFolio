@@ -1285,6 +1285,22 @@ nav .bar-icon {
         margin-bottom: 20px;
     }
 
+    .work-list a {
+        font-size: 10px;
+    }
+
+    .work-list .theme-change {
+        font-size: 10px;
+    }
+
+    .work-list .soon {
+        font-size: 10px;
+    }
+
+    #portfoilio .note {
+        font-size: 12px;
+    }
+
     .contact-left,
     .contact-right {
         flex-basis: 100%;
