@@ -396,7 +396,7 @@ nav ul li a:hover::after {
 }
 
 #portfoilio .note {
-    margin: 20px 5px;
+    margin: 00px 5px;
     color: rgb(255, 37, 13);
 }
 
@@ -1619,7 +1619,7 @@ nav .bar-icon {
     #portfoilio .sub-title::after {
         left: 3.5rem;
         bottom: .4rem;
-        width: 8rem;
+        width: 3.5rem;
     }
 
     .work-list {
@@ -1635,6 +1635,23 @@ nav .bar-icon {
 
     .work-list .work:hover p {
         display: none;
+    }
+
+    .work-list a {
+        font-size: 15px;
+
+    }
+
+    .work-list .theme-change {
+        font-size: 15px;
+    }
+
+    .work-list .soon {
+        font-size: 13px;
+    }
+
+    #portfoilio .note {
+        font-size: 12px;
     }
 
     .contact-left,
@@ -1908,6 +1925,22 @@ nav .bar-icon {
 
     .work-list .work:hover p {
         display: none;
+    }
+
+    .work-list a {
+        font-size: 16px;
+    }
+
+    .work-list .theme-change {
+        font-size: 16px;
+    }
+
+    .work-list .soon {
+        font-size: 14px;
+    }
+
+    #portfoilio .note {
+        font-size: 15px;
     }
 
     .contact-left,
