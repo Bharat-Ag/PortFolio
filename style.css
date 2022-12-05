@@ -13,10 +13,20 @@
     --white-clr: white;
     --fx: rgb(0, 102, 255);
     --animate: rgb(158, 116, 226);
+    --bg-1: rgb(12, 11, 11);
+    --bg-2: rgb(12, 11, 11);
+
+}
+
+.theme-changed {
+    --white-clr: rgb(28, 28, 28);
+    --bg-1: #DDBEAA;
+    --animate: #5BA199;
 }
 
 body {
-    background-color: rgb(12, 11, 11);
+    background-color: var(--bg-1);
+    transition: all .3s ease-in-out;
 }
 
 ::-webkit-scrollbar {
@@ -413,7 +423,6 @@ nav ul li a:hover::after {
     flex-direction: column;
     gap: 20px;
     padding: 20px;
-
 }
 
 
@@ -427,6 +436,19 @@ nav ul li a:hover::after {
     color: var(--animate);
 }
 
+.work .theme-change {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.work .theme-change img {
+    filter: invert(0);
+
+    gap: 15px;
+}
 
 /* <!---------------------------------------contact form--> */
 

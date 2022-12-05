@@ -69,7 +69,7 @@ observer.observe(svr);
 let scrlBtn = document.querySelector(".scroll-btn")
 
 window.addEventListener('scroll', () => {
- 
+
     if (window.pageYOffset >= 700) {
         scrlBtn.classList.add("active");
     }
@@ -78,3 +78,16 @@ window.addEventListener('scroll', () => {
     }
 })
 
+
+// --------------------theme change animation---------
+
+
+let theme = document.querySelector(".theme-change");
+let mainContainer = document.querySelector("body");
+
+
+const themeChnage = () => {
+    mainContainer.classList.toggle("theme-changed");
+    document.getElementById("header").style.backgroundImage = "url(green-paint-brush-textured-background.jpg)";
+
+}
