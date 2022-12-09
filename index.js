@@ -142,7 +142,7 @@ if (getTheme && getTheme === "theme-changed") {
 
     body.classList.add("theme-changed");
 
-    document.getElementById("header").style.backgroundImage = "url(green-paint-brush-textured-background.jpg)"; F
+    document.getElementById("header").style.backgroundImage = "url(green-paint-brush-textured-background.jpg)";
 }
 else {
     document.getElementById("header").style.backgroundImage = "url(5430284.jpg)";
