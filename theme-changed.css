@@ -18,3 +18,21 @@ body.theme-changed .primary-btn {
 body.theme-changed .copyright a:hover {
     color: rgb(255, 63, 63);
 }
+
+
+body.theme-changed .tab-contents ul li:first-child {
+    color: rgb(8, 70, 255);
+
+}
+
+body.theme-changed .tab-contents ul li:nth-child(2) {
+    color: rgb(241, 47, 255);
+}
+
+body.theme-changed .tab-contents ul li:nth-child(3) {
+    color: rgb(255, 47, 47);
+}
+
+body.theme-changed .tab-contents ul li:last-child {
+    color: rgb(0, 0, 0);
+}
