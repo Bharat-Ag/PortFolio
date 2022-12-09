@@ -97,12 +97,12 @@ window.addEventListener('scroll', () => {
 
 
 let theme = document.querySelector(".theme-change");
-let boDy = document.querySelector("body");
+let body = document.querySelector("body");
 
 let thmIcon = document.querySelector(".theme-icon")
 let toggle = true;
 const themeChnage = () => {
-    boDy.classList.toggle("theme-changed");
+    body.classList.toggle("theme-changed");
 
     toggle = !toggle;
     if (toggle) {
@@ -128,5 +128,28 @@ const themeChnage = () => {
             loader.style.display = "none";
         }, 1000);
 
+    }
+    // --------------------theme change animation funtion call hua h yaha---------
+
+    cooKy();
+
+}
+// --------------------theme change animation funtion definition---------
+
+let getTheme = localStorage.getItem("mode");
+
+if (getTheme && getTheme === "theme-changed") {
+
+    body.classList.add("theme-changed");
+
+    document.getElementById("header").style.backgroundImage = "url(5430284.jpg)";
+}
+
+let cooKy = () => {
+    if (!body.classList.contains("theme-changed")) {
+        return localStorage.setItem("mode", "normal-theme")
+    }
+    else {
+        localStorage.setItem("mode", "theme-changed")
     }
 }
