@@ -125,6 +125,7 @@ const themeChnage = () => {
     cooKy();
 
 }
+
 // --------------------theme change animation funtion definition---------
 
 let getTheme = localStorage.getItem("mode");
