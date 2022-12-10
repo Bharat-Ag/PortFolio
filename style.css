@@ -371,6 +371,10 @@ nav ul li a:hover::after {
 
 }
 
+.tab-contents .skill-bar {
+    width: 100%;
+    /* border: 2px Solid red; */
+}
 
 .tab-contents ul li span {
     color: var(--white-clr);
