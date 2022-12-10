@@ -107,17 +107,17 @@ const themeChnage = () => {
     toggle = !toggle;
     if (toggle) {
         thmIcon.src = "color-filled-solid-24.png";
-        loader.style.display = "flex";
-        setTimeout(() => {
-            loader.style.display = "none";
-        }, 1000);
+        // loader.style.display = "flex";
+        // setTimeout(() => {
+        //     loader.style.display = "none";
+        // }, 1000);
     }
     else {
         thmIcon.src = "color-empty-solid-24.png";
-        loader.style.display = "flex";
-        setTimeout(() => {
-            loader.style.display = "none";
-        }, 1000);
+        // loader.style.display = "flex";
+        // setTimeout(() => {
+        //     loader.style.display = "none";
+        // }, 1000);
 
     }
     // --------------------theme change animation funtion call hua h yaha---------
