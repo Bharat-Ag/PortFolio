@@ -1321,7 +1321,7 @@ nav .bar-icon {
 
 
     .tab-contents {
-        height: 270px;
+        height: 195px;
     }
 
     .tab-contents ul li span {
@@ -1661,7 +1661,7 @@ nav .bar-icon {
     }
 
     .tab-contents {
-        height: 290px;
+        height: 210px;
     }
 
     #about .sub-title::after {
@@ -1976,7 +1976,7 @@ nav .bar-icon {
     }
 
     .tab-contents {
-        height: 280px;
+        height: 200px;
     }
 
     #about .sub-title::after {
@@ -2247,7 +2247,7 @@ nav .bar-icon {
     }
 
     .tab-contents {
-        height: calc(300px - 30px);
+        height: calc(240px - 30px);
     }
 
     #about .sub-title::after {
