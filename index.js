@@ -107,22 +107,13 @@ const themeChnage = () => {
     toggle = !toggle;
     if (toggle) {
         thmIcon.src = "color-filled-solid-24.png";
-
-        document.getElementById("header").style.backgroundImage = "url(5430284.jpg)";
-
         loader.style.display = "flex";
         setTimeout(() => {
             loader.style.display = "none";
         }, 1000);
     }
     else {
-        document.getElementById("header").style.backgroundImage = "url(green-paint-brush-textured-background.jpg)";
         thmIcon.src = "color-empty-solid-24.png";
-
-        // document.body.style.visibility = "hidden";
-        // setTimeout(() => {
-        //     document.body.style.visibility = "visible";
-        // }, 500);
         loader.style.display = "flex";
         setTimeout(() => {
             loader.style.display = "none";
@@ -141,12 +132,6 @@ let getTheme = localStorage.getItem("mode");
 if (getTheme && getTheme === "theme-changed") {
 
     body.classList.add("theme-changed");
-
-    document.getElementById("header").style.backgroundImage = "url(green-paint-brush-textured-background.jpg)"; F
-}
-else {
-    document.getElementById("header").style.backgroundImage = "url(5430284.jpg)";
-
 }
 
 let cooKy = () => {

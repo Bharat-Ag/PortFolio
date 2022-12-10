@@ -1,3 +1,10 @@
+body.theme-changed #header {
+    background: url('./green-paint-brush-textured-background.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
 body.theme-changed .work img {
     filter: invert(0);
 }
