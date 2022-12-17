@@ -19,7 +19,7 @@ body.theme-changed .bxs-balloon {
 }
 
 body.theme-changed .primary-btn {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 body.theme-changed .copyright a:hover {

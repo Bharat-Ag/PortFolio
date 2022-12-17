@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Rancho&display=swap');
 
 
 * {
@@ -17,7 +17,7 @@
     --bg-2: rgb(16, 17, 17);
     --bg-3: rgb(15, 16, 16);
     --input-clr: rgb(38, 37, 37);
-
+    --btn-clr: #FAF8F1;
 }
 
 .theme-changed {
@@ -129,11 +129,9 @@ body {
     width: 100%;
     min-height: 100vh;
     color: var(--white-clr);
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 212, 255, 0) 100%),
-        url('./mountain.jpg') no-repeat;
+    background: url('./mountain.jpg') no-repeat;
     background-position: center;
     background-size: cover;
-
 }
 
 #header .container {
@@ -208,9 +206,7 @@ nav ul li a:hover::after {
 
 .header-text {
     margin-top: 20%;
-    font-size: 30px;
     position: relative;
-    padding-left: 190px;
 }
 
 .header-text h1 {
@@ -220,16 +216,20 @@ nav ul li a:hover::after {
     -webkit-text-stroke-color: var(--white-clr);
     -webkit-text-fill-color: transparent;
     user-select: none;
+    text-align: center;
 }
 
 .header-text h1 span {
-    font-size: 110px;
+    font-size: 150px;
+    font-family: 'Rancho', cursive;
+    letter-spacing: 9px;
+
 }
 
 .header-text p {
     position: relative;
     font-size: 17px;
-    padding-left: 27.5rem;
+    text-align: center;
 }
 
 
@@ -544,8 +544,8 @@ nav ul li a:hover::after {
 
 
 .primary-btn {
-    background: var(--animate);
-    color: var(--white-clr);
+    background: var(--btn-clr);
+    color: black;
     text-decoration: none;
     outline: none;
     border: none;
