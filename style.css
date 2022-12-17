@@ -12,7 +12,7 @@
 :root {
     --white-clr: white;
     --fx: rgb(0, 102, 255);
-    --animate: rgb(158, 116, 226);
+    --animate: rgb(242, 167, 113);
     --bg-1: rgb(12, 11, 11);
     --bg-2: rgb(16, 17, 17);
     --bg-3: rgb(15, 16, 16);
@@ -129,7 +129,8 @@ body {
     width: 100%;
     min-height: 100vh;
     color: var(--white-clr);
-    background: url('./mountain.jpg') no-repeat;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 212, 255, 0) 100%),
+        url('./mountain.jpg') no-repeat;
     background-position: center;
     background-size: cover;
 
@@ -164,11 +165,6 @@ body {
     top: 0;
     transition: background-color .4s ease-in-out;
 }
-
-/* .navbar-menu .bxs-cat,
-.navbar-menu a {
-    color: rgb(255, 255, 255);
-} */
 
 .sticky {
     background-color: var(--animate);
@@ -220,6 +216,10 @@ nav ul li a:hover::after {
 .header-text h1 {
     margin-top: 20px;
     font-size: 40px;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: var(--white-clr);
+    -webkit-text-fill-color: transparent;
+    user-select: none;
 }
 
 .header-text h1 span {
