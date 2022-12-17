@@ -130,8 +130,9 @@ body {
     min-height: 100vh;
     color: var(--white-clr);
     background: url('./mountain.jpg') no-repeat;
-    background-position: 100%;
+    background-position:center;
     background-size: cover;
+    position: relative;
 }
 
 #header .container {
@@ -575,7 +576,7 @@ nav ul li a:hover::after {
 }
 
 .primary-btn:active {
-    background: rgb(196, 21, 196);
+    background: rgb(255, 242, 161);
     transform: scale(.98);
 }
 
