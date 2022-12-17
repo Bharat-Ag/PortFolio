@@ -130,7 +130,7 @@ body {
     min-height: 100vh;
     color: var(--white-clr);
     background: url('./mountain.jpg') no-repeat;
-    background-position: center;
+    background-position: 100%;
     background-size: cover;
 }
 
@@ -155,10 +155,7 @@ body {
 #header .bird.bd2 {
     right: 20%;
     top: 29%;
-
 }
-
-
 
 .container {
     padding: 10px 10%;
@@ -766,7 +763,7 @@ nav .bar-icon {
 
     .header-text p {
         font-size: 10px;
-        padding-left: 6.1em;
+        text-align: center;
 
     }
 
@@ -833,7 +830,7 @@ nav .bar-icon {
 
     .header-text p {
         font-size: 8px;
-        padding-left: 5.5rem;
+        text-align: center;
     }
 
 
@@ -1156,9 +1153,7 @@ nav .bar-icon {
     }
 
     .header-text {
-        margin-top: 60%;
-        padding-left: 40px;
-
+        margin: 90% 0;
     }
 
     .header-text h1 {
@@ -1167,11 +1162,12 @@ nav .bar-icon {
 
     .header-text h1 span {
         font-size: 45px;
+        letter-spacing: 2px;
     }
 
     .header-text p {
         font-size: 12px;
-        padding-left: 8.0rem;
+        text-align: center;
     }
 
     .work-list .work::before {
@@ -1506,13 +1502,11 @@ nav .bar-icon {
     }
 
     .header-text {
-        margin-top: 20%;
-        padding-left: 20px;
+        margin: 50% 0;
     }
 
     .header-text h1 {
         font-size: 10px;
-
     }
 
     .header-text h1 span {
@@ -1520,7 +1514,7 @@ nav .bar-icon {
     }
 
     .header-text p {
-        padding-left: 9rem;
+        text-align: center;
         font-size: 8px;
 
     }
@@ -1815,9 +1809,7 @@ nav .bar-icon {
     }
 
     .header-text {
-        margin-top: 50%;
-        font-size: 30px;
-        padding-left: 40px;
+        margin: 50% auto;
     }
 
     .header-text h1 {
@@ -1829,7 +1821,7 @@ nav .bar-icon {
     }
 
     .header-text p {
-        padding-left: 16.5rem;
+        text-align: center;
         font-size: 15px;
 
     }
@@ -2088,8 +2080,7 @@ nav .bar-icon {
     }
 
     .header-text {
-        margin-top: 15%;
-        padding-left: 40px;
+        margin: 50% 0;
     }
 
     .header-text h1 {
@@ -2101,7 +2092,7 @@ nav .bar-icon {
     }
 
     .header-text p {
-        padding-left: 13rem;
+        text-align: center;
         font-size: 15px;
     }
 
@@ -2327,9 +2318,8 @@ nav .bar-icon {
 
 
     .header-text {
-        margin-top: 20%;
-        font-size: 30px;
-        padding-left: 40px;
+        margin: auto 0;
+
     }
 
     .header-text h1 {
@@ -2341,7 +2331,7 @@ nav .bar-icon {
     }
 
     .header-text p {
-        padding-left: 17rem;
+        text-align: center;
     }
 
     .navbar-menu {
@@ -2464,11 +2454,7 @@ nav .bar-icon {
 
 @media (min-width:901px) and (max-width:1080px) {
 
-    .header-text {
-        margin-top: 20%;
-        font-size: 20px;
-        padding-left: 40px;
-    }
+
 
     .header-text h1 {
         font-size: 20px;
@@ -2480,7 +2466,7 @@ nav .bar-icon {
 
     .header-text p {
         font-size: 16px;
-        padding-left: 17.8rem;
+        text-align: center;
     }
 
     .navbar-menu {
@@ -2641,12 +2627,6 @@ nav .bar-icon {
 
 @media (min-width:1081px) and (max-width:1200px) {
 
-    .header-text {
-        margin-top: 20%;
-        font-size: 30px;
-        padding-left: 40px;
-    }
-
     .header-text h1 {
         font-size: 15px;
     }
@@ -2656,7 +2636,7 @@ nav .bar-icon {
     }
 
     .header-text p {
-        padding-left: 13.7rem;
+        text-align: center;
     }
 
     .navbar-menu {
@@ -2785,12 +2765,6 @@ nav .bar-icon {
 
 @media (min-width:1201px) and (max-width:1450px) {
 
-    .header-text {
-        margin-top: 20%;
-        font-size: 30px;
-        padding-left: 40px;
-    }
-
     .header-text h1 {
         font-size: 22px;
     }
@@ -2800,7 +2774,7 @@ nav .bar-icon {
     }
 
     .header-text p {
-        padding-left: 19.8rem;
+        text-align: center;
     }
 
     .navbar-menu {
