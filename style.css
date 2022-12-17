@@ -150,12 +150,12 @@ body {
 
 #header .bird.bd1 {
     left: 20%;
-    top: 22%;
+    top: 40%;
 }
 
 #header .bird.bd2 {
     right: 20%;
-    top: 29%;
+    top: 35%;
 }
 
 .container {
@@ -249,7 +249,7 @@ nav ul li a:hover::after {
 
 .header-text p {
     position: relative;
-    font-size: 17px;
+    font-size: 20px;
     text-align: center;
 }
 
