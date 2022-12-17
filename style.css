@@ -138,6 +138,28 @@ body {
     padding: 10px 0;
 }
 
+#header .bird {
+    position: absolute;
+    width: 140px;
+    transform: translateY(-50%);
+    background: none;
+    user-select: none;
+    pointer-events: none;
+}
+
+#header .bird.bd1 {
+    left: 20%;
+    top: 22%;
+}
+
+#header .bird.bd2 {
+    right: 20%;
+    top: 29%;
+
+}
+
+
+
 .container {
     padding: 10px 10%;
 }
