@@ -130,7 +130,7 @@ body {
     min-height: 100vh;
     color: var(--white-clr);
     background: url('./mountain.jpg') no-repeat;
-    background-position:center;
+    background-position: center;
     background-size: cover;
     position: relative;
 }
@@ -232,15 +232,16 @@ nav ul li a:hover::after {
 .header-text h1 {
     margin-top: 20px;
     font-size: 40px;
-    -webkit-text-stroke-width: 0.1px;
-    -webkit-text-stroke-color: var(--white-clr);
-    -webkit-text-fill-color: transparent;
+
     user-select: none;
     text-align: center;
 }
 
 .header-text h1 span {
     font-size: 150px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--white-clr);
+    -webkit-text-fill-color: transparent;
     font-family: 'Rancho', cursive;
     letter-spacing: 9px;
 
