@@ -129,7 +129,7 @@ body {
     width: 100%;
     min-height: 100vh;
     color: var(--white-clr);
-    background: url('./5430284.jpg') no-repeat;
+    background: url('./mountain.jpg') no-repeat;
     background-position: center;
     background-size: cover;
 
@@ -233,39 +233,6 @@ nav ul li a:hover::after {
 }
 
 
-.fun {
-    position: absolute;
-    top: 50%;
-    right: 10%;
-    background-color: black;
-    background: url('./astronaut-vector.png') no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-blend-mode: hard-light;
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    animation: astroMove 3s infinite 2s;
-    margin-top: 20px;
-}
-
-@keyframes astroMove {
-
-    0% {
-        transform: translateY(00px);
-    }
-
-    50% {
-        transform: translateY(-100px);
-
-    }
-
-    100% {
-        transform: translateY(0px);
-
-    }
-
-}
 
 /* <!---------------------------------------about --> */
 
@@ -790,8 +757,7 @@ nav .bar-icon {
     #services,
     #portfoilio,
     #contact,
-    .navbar-menu,
-    .fun {
+    .navbar-menu {
         display: none;
     }
 
@@ -848,9 +814,6 @@ nav .bar-icon {
         padding-left: 5.5rem;
     }
 
-    .fun {
-        display: none;
-    }
 
     nav .bar-icon {
         display: block;
@@ -1187,12 +1150,6 @@ nav .bar-icon {
     .header-text p {
         font-size: 12px;
         padding-left: 8.0rem;
-    }
-
-    .fun {
-        top: 72%;
-        width: 120px;
-        height: 120px;
     }
 
     .work-list .work::before {
@@ -1546,12 +1503,6 @@ nav .bar-icon {
 
     }
 
-    .fun {
-        top: 50%;
-        width: 90px;
-        height: 90px;
-    }
-
     nav .bar-icon {
         display: block;
         font-size: 45px;
@@ -1861,12 +1812,6 @@ nav .bar-icon {
 
     }
 
-    .fun {
-        top: 70%;
-        width: 150px;
-        height: 150px;
-    }
-
     nav .bar-icon {
         display: block;
         font-size: 45px;
@@ -2138,11 +2083,6 @@ nav .bar-icon {
         font-size: 15px;
     }
 
-    .fun {
-        top: 50%;
-        width: 150px;
-        height: 150px;
-    }
 
     nav .bar-icon {
         display: block;
@@ -2382,12 +2322,6 @@ nav .bar-icon {
         padding-left: 17rem;
     }
 
-    .fun {
-        top: 50%;
-        width: 170px;
-        height: 170px;
-    }
-
     .navbar-menu {
         padding: 0 30px;
     }
@@ -2525,12 +2459,6 @@ nav .bar-icon {
     .header-text p {
         font-size: 16px;
         padding-left: 17.8rem;
-    }
-
-    .fun {
-        top: 56%;
-        width: 170px;
-        height: 170px;
     }
 
     .navbar-menu {
@@ -2709,12 +2637,6 @@ nav .bar-icon {
         padding-left: 13.7rem;
     }
 
-    .fun {
-        top: 52%;
-        width: 190px;
-        height: 190px;
-    }
-
     .navbar-menu {
         padding: 0 40px;
     }
@@ -2857,12 +2779,6 @@ nav .bar-icon {
 
     .header-text p {
         padding-left: 19.8rem;
-    }
-
-    .fun {
-        top: 60%;
-        width: 250px;
-        height: 250px;
     }
 
     .navbar-menu {
