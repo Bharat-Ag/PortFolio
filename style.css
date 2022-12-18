@@ -858,7 +858,7 @@ nav .bar-icon {
         background: var(--animate);
         display: block;
         position: fixed;
-        top: -100%;
+        top: -130%;
         left: 0;
         width: 100%;
         height: max-content;
@@ -1237,7 +1237,7 @@ nav .bar-icon {
         background: var(--animate);
         display: block;
         position: fixed;
-        top: -100%;
+        top: -105%;
         left: 0;
         width: 100%;
         height: max-content;
@@ -2399,15 +2399,15 @@ nav .bar-icon {
 @media (min-width:811px) and (max-width:900px) {
 
     #header .bird.bd1 {
-        left: 12%;
+        left: 23%;
         top: 29%;
-        width: 20%;
+        width: 15%;
     }
 
     #header .bird.bd2 {
-        right: 7%;
-        top: 35%;
-        width: 18%;
+        right: 16%;
+        top: 33%;
+        width: 15%;
     }
 
     .header-text {
@@ -2548,15 +2548,15 @@ nav .bar-icon {
 
 
     #header .bird.bd1 {
-        left: 12%;
+        left: 21%;
         top: 29%;
-        width: 20%;
+        width: 12%;
     }
 
     #header .bird.bd2 {
-        right: 7%;
-        top: 35%;
-        width: 18%;
+        right: 20%;
+        top: 33%;
+        width: 12%;
     }
 
     .header-text {
@@ -2735,15 +2735,15 @@ nav .bar-icon {
 @media (min-width:1081px) and (max-width:1200px) {
 
     #header .bird.bd1 {
-        left: 12%;
+        left: 23%;
         top: 29%;
-        width: 20%;
+        width: 15%;
     }
 
     #header .bird.bd2 {
-        right: 7%;
-        top: 35%;
-        width: 18%;
+        right: 18%;
+        top: 33%;
+        width: 15%;
     }
 
     .header-text {
