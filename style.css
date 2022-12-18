@@ -141,8 +141,7 @@ body {
 
 #header .bird {
     position: absolute;
-    width: 140px;
-    transform: translateY(-50%);
+    width: 160px;
     background: none;
     user-select: none;
     pointer-events: none;
@@ -150,8 +149,7 @@ body {
 
 #header .bird.bd1 {
     left: 20%;
-
-    top: 40%;
+    top: 25%;
 }
 
 #header .bird.bd2 {

@@ -143,3 +143,25 @@ let cooKy = () => {
         localStorage.setItem("mode", "theme-changed")
     }
 }
+
+
+
+// --------------------parallax effect---------
+
+
+let bird1 = document.querySelector(".bd1");
+let bird2 = document.querySelector(".bd2");
+
+
+window.addEventListener("scroll", function () {
+
+    let value = window.scrollY;
+
+    bird1.style.top = 25 + value * -.2 + "%";
+    bird1.style.left = 20 + value * -.2 + "%";
+
+    // bird2.style.width = 150 + value * 1 + "px";
+    // bird2.style.right = 50 + value * -2 + "%";
+
+
+})
