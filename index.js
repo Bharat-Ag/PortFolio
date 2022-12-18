@@ -151,17 +151,22 @@ let cooKy = () => {
 
 let bird1 = document.querySelector(".bd1");
 let bird2 = document.querySelector(".bd2");
+let headerText = document.querySelector(".header-text")
 
 
 window.addEventListener("scroll", function () {
 
     let value = window.scrollY;
 
+    headerText.style.opacity = 50 + value * -0.5;
+
     bird1.style.top = 25 + value * -.2 + "%";
     bird1.style.left = 20 + value * -.2 + "%";
 
     // bird2.style.width = 150 + value * 1 + "px";
     // bird2.style.right = 50 + value * -2 + "%";
+
+
 
 
 })

@@ -226,6 +226,8 @@ nav ul li a:hover::after {
 .header-text {
     margin-top: 20%;
     position: relative;
+    opacity: 1;
+    transition: opacity .3s;
 }
 
 .header-text h1 {
