@@ -150,7 +150,7 @@ body {
 
 #header .bird.bd1 {
     left: 20%;
-    
+
     top: 40%;
 }
 
@@ -771,7 +771,7 @@ nav .bar-icon {
     }
 
     .header-text {
-        margin-top: 60%;
+        margin: 50% auto;
         padding-left: 10px;
     }
 
@@ -791,13 +791,21 @@ nav .bar-icon {
         font-size: 6px;
         padding: 0;
     }
+
+    .bird {
+        display: none;
+    }
 }
 
 
 
-@media (min-width:220px) and (max-width:346px) {
+@media (min-width:221px) and (max-width:346px) {
 
     /* ========================================header style */
+    .bird {
+        display: none;
+    }
+
     #modal-msg {
         height: 50px;
         width: 180px;
@@ -978,7 +986,7 @@ nav .bar-icon {
     }
 
     .services-list {
-        grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
         grid-gap: 30px;
         margin-top: 30px;
         margin-bottom: 20px;
@@ -1022,10 +1030,32 @@ nav .bar-icon {
     }
 
     .work-list {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        grid-gap: 30px;
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
+    }
+
+    .work-list .work {
+        padding: 9px;
+    }
+
+    .work-list .work img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .work-list a {
+        font-size: 10px;
+        gap: 10px;
+    }
+
+    .work-list .theme-change {
+        font-size: 10px;
+        gap: 11px;
+    }
+
+    #portfoilio .note {
+        font-size: 10px;
+        white-space: nowrap;
     }
 
     .contact-left,
@@ -1131,6 +1161,19 @@ nav .bar-icon {
 @media (min-width:347px) and (max-width:450px) {
 
     /* ========================================header style */
+    #header .bird.bd1 {
+        left: 20%;
+        top: 30%;
+        width: 20%;
+    }
+
+    #header .bird.bd2 {
+        right: 20%;
+        top: 35%;
+        width: 20%;
+
+    }
+
     .loader .load {
         width: 150px;
         height: 100px;
@@ -1494,6 +1537,18 @@ nav .bar-icon {
 @media (min-width:451px) and (max-width:550px) {
 
     /* ========================================header style */
+    #header .bird.bd1 {
+        left: 15%;
+        top: 30%;
+        width: 22%;
+    }
+
+    #header .bird.bd2 {
+        right: 15%;
+        top: 31%;
+        width: 22%;
+    }
+
     #modal-msg {
         height: 60px;
         width: 200px;
@@ -1505,7 +1560,7 @@ nav .bar-icon {
     }
 
     .header-text {
-        margin: 50% 0;
+        margin: 65% 0;
     }
 
     .header-text h1 {
@@ -1801,6 +1856,18 @@ nav .bar-icon {
 @media (min-width:551px) and (max-width:600px) {
 
     /* ========================================header style */
+    #header .bird.bd1 {
+        left: 18%;
+        top: 29%;
+        width: 20%;
+    }
+
+    #header .bird.bd2 {
+        right: 10%;
+        top: 35%;
+        width: 18%;
+    }
+
     #modal-msg {
         height: 60px;
         width: 210px;
@@ -2072,6 +2139,18 @@ nav .bar-icon {
 @media (min-width:601px) and (max-width:810px) {
 
     /* ========================================header style */
+    #header .bird.bd1 {
+        left: 18%;
+        top: 29%;
+        width: 20%;
+    }
+
+    #header .bird.bd2 {
+        right: 10%;
+        top: 35%;
+        width: 18%;
+    }
+
     #modal-msg {
         height: 70px;
         width: 230px;
@@ -2319,10 +2398,20 @@ nav .bar-icon {
 
 @media (min-width:811px) and (max-width:900px) {
 
+    #header .bird.bd1 {
+        left: 12%;
+        top: 29%;
+        width: 20%;
+    }
+
+    #header .bird.bd2 {
+        right: 7%;
+        top: 35%;
+        width: 18%;
+    }
 
     .header-text {
-        margin: auto 0;
-
+        margin: 40% 0;
     }
 
     .header-text h1 {
@@ -2458,6 +2547,21 @@ nav .bar-icon {
 @media (min-width:901px) and (max-width:1080px) {
 
 
+    #header .bird.bd1 {
+        left: 12%;
+        top: 29%;
+        width: 20%;
+    }
+
+    #header .bird.bd2 {
+        right: 7%;
+        top: 35%;
+        width: 18%;
+    }
+
+    .header-text {
+        margin: 40% 0;
+    }
 
     .header-text h1 {
         font-size: 20px;
@@ -2630,12 +2734,28 @@ nav .bar-icon {
 
 @media (min-width:1081px) and (max-width:1200px) {
 
+    #header .bird.bd1 {
+        left: 12%;
+        top: 29%;
+        width: 20%;
+    }
+
+    #header .bird.bd2 {
+        right: 7%;
+        top: 35%;
+        width: 18%;
+    }
+
+    .header-text {
+        margin: 40% 0;
+    }
+
     .header-text h1 {
         font-size: 15px;
     }
 
     .header-text h1 span {
-        font-size: 70px;
+        font-size: 95px;
     }
 
     .header-text p {
@@ -2767,13 +2887,28 @@ nav .bar-icon {
 }
 
 @media (min-width:1201px) and (max-width:1450px) {
+    #header .bird.bd1 {
+        left: 22%;
+        top: 30%;
+        width: 11%;
+    }
+
+    #header .bird.bd2 {
+        right: 21%;
+        top: 28%;
+        width: 11%;
+    }
+
+    .header-text {
+        margin: 30% 0;
+    }
 
     .header-text h1 {
         font-size: 22px;
     }
 
     .header-text h1 span {
-        font-size: 85px;
+        font-size: 120px;
     }
 
     .header-text p {
